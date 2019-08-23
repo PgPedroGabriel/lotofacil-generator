@@ -10,6 +10,7 @@
   "author": "Pedro Gabriel",
   "license": "MIT",
   "dependencies": {
+    "adm-zip": "^0.4.13",
     "body-parser": "^1.19.0",
     "crawler": "^1.2.1",
     "express": "^4.17.1"

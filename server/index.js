@@ -12,6 +12,8 @@ app.use(router);
 
 require('./routes/index')(app);
 
+require('./crawlers/resultado_lotofacil_html')();
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, function(){
