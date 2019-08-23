@@ -1,0 +1,17 @@
+{
+  "name": "lotofacil-generator",
+  "version": "1.0.0",
+  "description": "Gerador de números da lotofácil com predições de inteligência artificial baseadas em concursos anteriores.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Gabriel",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crawler": "^1.2.1",
+    "express": "^4.17.1"
+  }
+}
